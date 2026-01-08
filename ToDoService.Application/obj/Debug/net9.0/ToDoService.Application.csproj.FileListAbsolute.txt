@@ -13,3 +13,4 @@ E:\ToDo\ToDoService\TodoService.Application\obj\Debug\net9.0\ToDoService.Applica
 E:\ToDo\ToDoService\TodoService.Application\obj\Debug\net9.0\refint\ToDoService.Application.dll
 E:\ToDo\ToDoService\TodoService.Application\obj\Debug\net9.0\ToDoService.Application.pdb
 E:\ToDo\ToDoService\TodoService.Application\obj\Debug\net9.0\ref\ToDoService.Application.dll
+E:\ToDo\ToDoService\TodoService.Application\obj\Debug\net9.0\ToDoService.Application.sourcelink.json

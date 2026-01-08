@@ -9,3 +9,4 @@ E:\ToDo\ToDoService\ToDoService.Domain\obj\Debug\net9.0\ToDoService.Domain.dll
 E:\ToDo\ToDoService\ToDoService.Domain\obj\Debug\net9.0\refint\ToDoService.Domain.dll
 E:\ToDo\ToDoService\ToDoService.Domain\obj\Debug\net9.0\ToDoService.Domain.pdb
 E:\ToDo\ToDoService\ToDoService.Domain\obj\Debug\net9.0\ref\ToDoService.Domain.dll
+E:\ToDo\ToDoService\ToDoService.Domain\obj\Debug\net9.0\ToDoService.Domain.sourcelink.json

@@ -19,7 +19,9 @@ public class CreateToDoHandler : IRequestHandler<CreateToDoCommand, ToDoItem>
         var todo = new ToDoItem
         {
             Title = request.Title,
-            IsCompleted = false
+            IsCompleted = false,
+            DueDate = request.DueDate,
+            Priority = request.Priority
         };
 
         await _repository.AddAsync(todo);

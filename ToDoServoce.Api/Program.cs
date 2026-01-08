@@ -17,6 +17,10 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddValidatorsFromAssembly(
     typeof(CreateTodoCommandValidator).Assembly);
 
+builder.Services.AddValidatorsFromAssembly(
+    typeof(UpdateToDoCommand).Assembly);
+
+
 builder.Services.AddTransient(
     typeof(IPipelineBehavior<,>),
     typeof(ValidationBehavior<,>)

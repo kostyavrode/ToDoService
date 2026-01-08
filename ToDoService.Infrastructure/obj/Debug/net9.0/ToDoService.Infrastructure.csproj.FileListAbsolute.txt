@@ -17,3 +17,4 @@ E:\ToDo\ToDoService\TodoService.Infrastructure\obj\Debug\net9.0\refint\ToDoServi
 E:\ToDo\ToDoService\TodoService.Infrastructure\obj\Debug\net9.0\ToDoService.Infrastructure.pdb
 E:\ToDo\ToDoService\TodoService.Infrastructure\obj\Debug\net9.0\ToDoService.Infrastructure.genruntimeconfig.cache
 E:\ToDo\ToDoService\TodoService.Infrastructure\obj\Debug\net9.0\ref\ToDoService.Infrastructure.dll
+E:\ToDo\ToDoService\ToDoService.Infrastructure\obj\Debug\net9.0\ToDoService.Infrastructure.sourcelink.json

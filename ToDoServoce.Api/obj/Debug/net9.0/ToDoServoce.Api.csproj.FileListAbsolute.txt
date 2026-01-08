@@ -139,3 +139,4 @@ E:\ToDo\ToDoService\ToDoServoce.Api\bin\Debug\net9.0\Microsoft.IdentityModel.Tok
 E:\ToDo\ToDoService\ToDoServoce.Api\bin\Debug\net9.0\System.Diagnostics.DiagnosticSource.dll
 E:\ToDo\ToDoService\ToDoServoce.Api\bin\Debug\net9.0\FluentValidation.dll
 E:\ToDo\ToDoService\ToDoServoce.Api\bin\Debug\net9.0\FluentValidation.DependencyInjectionExtensions.dll
+E:\ToDo\ToDoService\ToDoServoce.Api\obj\Debug\net9.0\ToDoServoce.Api.sourcelink.json

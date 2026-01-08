@@ -37,4 +37,15 @@ public class ToDoRepository : IToDoRepository
         return true;
     }
 
+    public async Task<ToDoItem?> GetByIdAsync(int id)
+    {
+        return await _context.ToDos.FindAsync(id);
+    }
+
+    public async Task UpdateAsync(ToDoItem item)
+    {
+        _context.ToDos.Update(item);
+        await _context.SaveChangesAsync();
+    }
+
 }

@@ -49,4 +49,20 @@ public class ToDoController : ControllerBase
         }
         return NoContent();
     }
+
+    [HttpPatch("{id:int}/complete")]
+    public async Task<IActionResult> MarkAsCompleted(int id)
+    {
+        var command = new UpdateToDoCommand(id, IsCompleted: true);
+
+        try
+        {
+            var todo = await _mediator.Send(command);
+            return Ok(todo);
+        }
+        catch (KeyNotFoundException)
+        {
+            return NotFound();
+        }
+    }
 }
