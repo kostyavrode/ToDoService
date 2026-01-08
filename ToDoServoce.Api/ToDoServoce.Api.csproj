@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <PackageReference Include="MediatR" Version="14.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="9.0.0" />
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="9.0.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="9.0">
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
@@ -17,8 +18,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\TodoService.Application\ToDoService.Application.csproj" />
-    <ProjectReference Include="..\TodoService.Infrastructure\ToDoService.Infrastructure.csproj" />
+    <ProjectReference Include="..\ToDoService.Application\ToDoService.Application.csproj" />
+    <ProjectReference Include="..\ToDoService.Infrastructure\ToDoService.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>

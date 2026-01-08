@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\ToDo\\ToDoService\\TodoService.Application\\ToDoService.Application.csproj": {}
+    "E:\\ToDo\\ToDoService\\ToDoService.Application\\ToDoService.Application.csproj": {}
   },
   "projects": {
-    "E:\\ToDo\\ToDoService\\TodoService.Application\\ToDoService.Application.csproj": {
+    "E:\\ToDo\\ToDoService\\ToDoService.Application\\ToDoService.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\ToDo\\ToDoService\\TodoService.Application\\ToDoService.Application.csproj",
+        "projectUniqueName": "E:\\ToDo\\ToDoService\\ToDoService.Application\\ToDoService.Application.csproj",
         "projectName": "ToDoService.Application",
-        "projectPath": "E:\\ToDo\\ToDoService\\TodoService.Application\\ToDoService.Application.csproj",
+        "projectPath": "E:\\ToDo\\ToDoService\\ToDoService.Application\\ToDoService.Application.csproj",
         "packagesPath": "C:\\Users\\inblo\\.nuget\\packages\\",
-        "outputPath": "E:\\ToDo\\ToDoService\\TodoService.Application\\obj\\",
+        "outputPath": "E:\\ToDo\\ToDoService\\ToDoService.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -54,6 +54,10 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "dependencies": {
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            },
             "FluentValidation": {
               "target": "Package",
               "version": "[12.1.1, )"
@@ -65,6 +69,18 @@
             "MediatR": {
               "target": "Package",
               "version": "[14.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[8.14.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[8.14.0, )"
             }
           },
           "imports": [

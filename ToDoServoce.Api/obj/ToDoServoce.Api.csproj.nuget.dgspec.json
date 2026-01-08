@@ -4,14 +4,14 @@
     "E:\\ToDo\\ToDoService\\ToDoServoce.Api\\ToDoServoce.Api.csproj": {}
   },
   "projects": {
-    "E:\\ToDo\\ToDoService\\TodoService.Application\\ToDoService.Application.csproj": {
+    "E:\\ToDo\\ToDoService\\ToDoService.Application\\ToDoService.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\ToDo\\ToDoService\\TodoService.Application\\ToDoService.Application.csproj",
+        "projectUniqueName": "E:\\ToDo\\ToDoService\\ToDoService.Application\\ToDoService.Application.csproj",
         "projectName": "ToDoService.Application",
-        "projectPath": "E:\\ToDo\\ToDoService\\TodoService.Application\\ToDoService.Application.csproj",
+        "projectPath": "E:\\ToDo\\ToDoService\\ToDoService.Application\\ToDoService.Application.csproj",
         "packagesPath": "C:\\Users\\inblo\\.nuget\\packages\\",
-        "outputPath": "E:\\ToDo\\ToDoService\\TodoService.Application\\obj\\",
+        "outputPath": "E:\\ToDo\\ToDoService\\ToDoService.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -54,6 +54,10 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "dependencies": {
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            },
             "FluentValidation": {
               "target": "Package",
               "version": "[12.1.1, )"
@@ -65,6 +69,18 @@
             "MediatR": {
               "target": "Package",
               "version": "[14.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[8.14.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[8.14.0, )"
             }
           },
           "imports": [
@@ -152,14 +168,14 @@
         }
       }
     },
-    "E:\\ToDo\\ToDoService\\TodoService.Infrastructure\\ToDoService.Infrastructure.csproj": {
+    "E:\\ToDo\\ToDoService\\ToDoService.Infrastructure\\ToDoService.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\ToDo\\ToDoService\\TodoService.Infrastructure\\ToDoService.Infrastructure.csproj",
+        "projectUniqueName": "E:\\ToDo\\ToDoService\\ToDoService.Infrastructure\\ToDoService.Infrastructure.csproj",
         "projectName": "ToDoService.Infrastructure",
-        "projectPath": "E:\\ToDo\\ToDoService\\TodoService.Infrastructure\\ToDoService.Infrastructure.csproj",
+        "projectPath": "E:\\ToDo\\ToDoService\\ToDoService.Infrastructure\\ToDoService.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\inblo\\.nuget\\packages\\",
-        "outputPath": "E:\\ToDo\\ToDoService\\TodoService.Infrastructure\\obj\\",
+        "outputPath": "E:\\ToDo\\ToDoService\\ToDoService.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -180,8 +196,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "E:\\ToDo\\ToDoService\\TodoService.Application\\ToDoService.Application.csproj": {
-                "projectPath": "E:\\ToDo\\ToDoService\\TodoService.Application\\ToDoService.Application.csproj"
+              "E:\\ToDo\\ToDoService\\ToDoService.Application\\ToDoService.Application.csproj": {
+                "projectPath": "E:\\ToDo\\ToDoService\\ToDoService.Application\\ToDoService.Application.csproj"
               },
               "E:\\ToDo\\ToDoService\\ToDoService.Domain\\ToDoService.Domain.csproj": {
                 "projectPath": "E:\\ToDo\\ToDoService\\ToDoService.Domain\\ToDoService.Domain.csproj"
@@ -268,11 +284,11 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "E:\\ToDo\\ToDoService\\TodoService.Application\\ToDoService.Application.csproj": {
-                "projectPath": "E:\\ToDo\\ToDoService\\TodoService.Application\\ToDoService.Application.csproj"
+              "E:\\ToDo\\ToDoService\\ToDoService.Application\\ToDoService.Application.csproj": {
+                "projectPath": "E:\\ToDo\\ToDoService\\ToDoService.Application\\ToDoService.Application.csproj"
               },
-              "E:\\ToDo\\ToDoService\\TodoService.Infrastructure\\ToDoService.Infrastructure.csproj": {
-                "projectPath": "E:\\ToDo\\ToDoService\\TodoService.Infrastructure\\ToDoService.Infrastructure.csproj"
+              "E:\\ToDo\\ToDoService\\ToDoService.Infrastructure\\ToDoService.Infrastructure.csproj": {
+                "projectPath": "E:\\ToDo\\ToDoService\\ToDoService.Infrastructure\\ToDoService.Infrastructure.csproj"
               }
             }
           }
@@ -296,6 +312,10 @@
             "MediatR": {
               "target": "Package",
               "version": "[14.0.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[9.0.0, )"
             },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",

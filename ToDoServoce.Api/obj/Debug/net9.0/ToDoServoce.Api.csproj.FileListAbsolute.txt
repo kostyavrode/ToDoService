@@ -140,3 +140,10 @@ E:\ToDo\ToDoService\ToDoServoce.Api\bin\Debug\net9.0\System.Diagnostics.Diagnost
 E:\ToDo\ToDoService\ToDoServoce.Api\bin\Debug\net9.0\FluentValidation.dll
 E:\ToDo\ToDoService\ToDoServoce.Api\bin\Debug\net9.0\FluentValidation.DependencyInjectionExtensions.dll
 E:\ToDo\ToDoService\ToDoServoce.Api\obj\Debug\net9.0\ToDoServoce.Api.sourcelink.json
+E:\ToDo\ToDoService\ToDoServoce.Api\bin\Debug\net9.0\BCrypt.Net-Next.dll
+E:\ToDo\ToDoService\ToDoServoce.Api\bin\Debug\net9.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+E:\ToDo\ToDoService\ToDoServoce.Api\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.dll
+E:\ToDo\ToDoService\ToDoServoce.Api\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\ToDo\ToDoService\ToDoServoce.Api\bin\Debug\net9.0\System.IdentityModel.Tokens.Jwt.dll
+E:\ToDo\ToDoService\ToDoServoce.Api\bin\Debug\net9.0\appsettings.Production.json
+E:\ToDo\ToDoService\ToDoServoce.Api\bin\Debug\net9.0\ToDoServoce.Api.staticwebassets.runtime.json

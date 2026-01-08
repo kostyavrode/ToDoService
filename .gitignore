@@ -1,0 +1,36 @@
+## .NET
+bin/
+obj/
+*.user
+*.suo
+*.cache
+*.dll
+*.pdb
+*.exe
+
+## Visual Studio
+.vs/
+.vscode/
+.idea/
+
+## Docker
+*.tar
+*.tar.gz
+todo-api-image.tar
+todo-api-image.tar.gz
+
+## Environment
+.env
+.env.local
+.env.*.local
+
+## Logs
+*.log
+
+## OS
+.DS_Store
+Thumbs.db
+
+## Build results
+publish/
+*.zip

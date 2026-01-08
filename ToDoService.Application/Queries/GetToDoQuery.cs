@@ -3,4 +3,4 @@ using ToDoService.Domain.Entities;
 
 namespace ToDoService.Application.Queries;
 
-public record GetToDoQuery() : IRequest<IEnumerable<ToDoItem>>;
+public record GetToDoQuery(int UserId) : IRequest<IEnumerable<ToDoItem>>;

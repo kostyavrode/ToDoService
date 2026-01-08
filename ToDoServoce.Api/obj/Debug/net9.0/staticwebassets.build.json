@@ -1,12 +1,20 @@
 {
   "Version": 1,
-  "Hash": "4tGXugKSbA57dHl/gxr6j+Fluti6yEh1IcKwqZfFFnM=",
+  "Hash": "GkA04Jr84wuqMDHA/YewVWy4TSL3eza43j3GPPsmEBQ=",
   "Source": "ToDoServoce.Api",
   "BasePath": "_content/ToDoServoce.Api",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "ToDoServoce.Api\\wwwroot",
+      "Source": "ToDoServoce.Api",
+      "ContentRoot": "E:\\ToDo\\ToDoService\\ToDoServoce.Api\\wwwroot\\",
+      "BasePath": "_content/ToDoServoce.Api",
+      "Pattern": "**"
+    }
+  ],
   "Assets": [],
   "Endpoints": []
 }

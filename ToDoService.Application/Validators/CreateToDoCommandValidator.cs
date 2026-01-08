@@ -1,6 +1,8 @@
 ﻿using FluentValidation;
 using ToDoService.Application.Commands;
 
+namespace ToDoService.Application.Validators;
+
 public class CreateTodoCommandValidator 
     : AbstractValidator<CreateToDoCommand>
 {

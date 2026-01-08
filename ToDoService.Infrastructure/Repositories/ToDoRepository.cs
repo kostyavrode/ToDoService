@@ -19,6 +19,13 @@ public class ToDoRepository : IToDoRepository
         return await _context.ToDos.ToListAsync();
     }
 
+    public async Task<IEnumerable<ToDoItem>> GetByUserIdAsync(int userId)
+    {
+        return await _context.ToDos
+            .Where(t => t.UserId == userId)
+            .ToListAsync();
+    }
+
     public async Task AddAsync(ToDoItem item)
     {
         _context.ToDos.Add(item);

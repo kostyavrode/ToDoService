@@ -23,6 +23,11 @@ public class UpdateToDoHandler : IRequestHandler<UpdateToDoCommand, ToDoItem>
             throw new KeyNotFoundException("Item not found. ID=" + request.Id);
         }
 
+        if (todo.UserId != request.UserId)
+        {
+            throw new UnauthorizedAccessException("You don't have permission to update this item");
+        }
+
         if (request.Title != null)
         {
             todo.Title = request.Title;
