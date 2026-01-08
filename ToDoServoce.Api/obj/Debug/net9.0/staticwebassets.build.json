@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "4tGXugKSbA57dHl/gxr6j+Fluti6yEh1IcKwqZfFFnM=",
+  "Source": "ToDoServoce.Api",
+  "BasePath": "_content/ToDoServoce.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

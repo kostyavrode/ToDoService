@@ -1,0 +1,15 @@
+E:\ToDo\ToDoService\TodoService.Application\bin\Debug\net9.0\ToDoService.Application.deps.json
+E:\ToDo\ToDoService\TodoService.Application\bin\Debug\net9.0\ToDoService.Application.dll
+E:\ToDo\ToDoService\TodoService.Application\bin\Debug\net9.0\ToDoService.Application.pdb
+E:\ToDo\ToDoService\TodoService.Application\bin\Debug\net9.0\ToDoService.Domain.dll
+E:\ToDo\ToDoService\TodoService.Application\bin\Debug\net9.0\ToDoService.Domain.pdb
+E:\ToDo\ToDoService\TodoService.Application\obj\Debug\net9.0\ToDoService.Application.csproj.AssemblyReference.cache
+E:\ToDo\ToDoService\TodoService.Application\obj\Debug\net9.0\ToDoService.Application.GeneratedMSBuildEditorConfig.editorconfig
+E:\ToDo\ToDoService\TodoService.Application\obj\Debug\net9.0\ToDoService.Application.AssemblyInfoInputs.cache
+E:\ToDo\ToDoService\TodoService.Application\obj\Debug\net9.0\ToDoService.Application.AssemblyInfo.cs
+E:\ToDo\ToDoService\TodoService.Application\obj\Debug\net9.0\ToDoService.Application.csproj.CoreCompileInputs.cache
+E:\ToDo\ToDoService\TodoService.Application\obj\Debug\net9.0\ToDoServ.0E5C6483.Up2Date
+E:\ToDo\ToDoService\TodoService.Application\obj\Debug\net9.0\ToDoService.Application.dll
+E:\ToDo\ToDoService\TodoService.Application\obj\Debug\net9.0\refint\ToDoService.Application.dll
+E:\ToDo\ToDoService\TodoService.Application\obj\Debug\net9.0\ToDoService.Application.pdb
+E:\ToDo\ToDoService\TodoService.Application\obj\Debug\net9.0\ref\ToDoService.Application.dll
