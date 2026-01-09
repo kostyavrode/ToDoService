@@ -40,7 +40,15 @@ public class UpdateToDoHandler : IRequestHandler<UpdateToDoCommand, ToDoItem>
 
         if (request.DueDate.HasValue)
         {
-            todo.DueDate = request.DueDate;
+            var dueDate = request.DueDate.Value;
+            if (dueDate.Kind == DateTimeKind.Unspecified)
+            {
+                todo.DueDate = DateTime.SpecifyKind(dueDate, DateTimeKind.Utc);
+            }
+            else
+            {
+                todo.DueDate = dueDate.ToUniversalTime();
+            }
         }
 
         if (request.Priority.HasValue)

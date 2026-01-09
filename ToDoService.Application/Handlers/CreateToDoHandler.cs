@@ -16,11 +16,25 @@ public class CreateToDoHandler : IRequestHandler<CreateToDoCommand, ToDoItem>
     
     public async Task<ToDoItem> Handle(CreateToDoCommand request, CancellationToken cancellationToken)
     {
+        DateTime? dueDateUtc = null;
+        if (request.DueDate.HasValue)
+        {
+            var dueDate = request.DueDate.Value;
+            if (dueDate.Kind == DateTimeKind.Unspecified)
+            {
+                dueDateUtc = DateTime.SpecifyKind(dueDate, DateTimeKind.Utc);
+            }
+            else
+            {
+                dueDateUtc = dueDate.ToUniversalTime();
+            }
+        }
+
         var todo = new ToDoItem
         {
             Title = request.Title,
             IsCompleted = false,
-            DueDate = request.DueDate,
+            DueDate = dueDateUtc,
             Priority = request.Priority,
             UserId = request.UserId
         };
