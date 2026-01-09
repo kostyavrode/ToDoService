@@ -51,11 +51,13 @@ public class AppDbContext : DbContext
         {
             foreach (var property in entry.Properties)
             {
-                if (property.Metadata.ClrType == typeof(DateTime) || property.Metadata.ClrType == typeof(DateTime?))
+                var clrType = property.Metadata.ClrType;
+                var underlyingType = Nullable.GetUnderlyingType(clrType) ?? clrType;
+                
+                if (underlyingType == typeof(DateTime))
                 {
-                    if (property.CurrentValue != null)
+                    if (property.CurrentValue != null && property.CurrentValue is DateTime dateTime)
                     {
-                        var dateTime = (DateTime)property.CurrentValue;
                         if (dateTime.Kind == DateTimeKind.Unspecified)
                         {
                             property.CurrentValue = DateTime.SpecifyKind(dateTime, DateTimeKind.Utc);
