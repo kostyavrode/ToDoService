@@ -10,6 +10,8 @@ using ToDoService.Application.Validators;
 using ToDoService.Infrastructure.Persistence;
 using ToDoService.Infrastructure.Repositories;
 
+AppContext.SetSwitch("Npgsql.EnableLegacyTimestampBehavior", true);
+
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
@@ -20,7 +22,7 @@ builder.Services.AddCors(options =>
 {
     options.AddDefaultPolicy(policy =>
     {
-        policy.WithOrigins("https://todo-kostya.online", "http://todo-kostya.online")
+        policy.WithOrigins("ghttps://todo-kostya.online", "http://todo-kostya.online")
               .AllowAnyMethod()
               .AllowAnyHeader()
               .AllowCredentials();
